@@ -27,7 +27,9 @@ env_args:
   state_timestep_number: False
   step_mul: 8
   seed: null
-  heuristic_ai: False
+  # This is commented in the SMIX repo, but not sure why:
+  # https://github.com/chaovven/SMIX
+  # heuristic_ai: False
   debug: False
 
 learner_log_interval: 20000
